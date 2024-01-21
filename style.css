@@ -1,0 +1,91 @@
+ /* this is my font link */
+ @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+ }
+
+ /* shared style */
+
+
+
+
+
+
+
+
+
+
+ header {
+    padding: 20px 100px;
+
+ }
+
+
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .leftside {
+    display: flex;
+
+ }
+
+ .rightside {
+    display: flex;
+ }
+
+ .head {}
+
+ .icon {
+    margin-right: 10px;
+ }
+
+ nav>ul {
+    display: flex;
+ }
+
+ nav li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+ }
+
+ .orange {
+    color: #ff4500;
+ }
+
+ .gray-bar {
+    color: #808080;
+ }
+
+ .heading-black {
+   /* it will use for each of the heading of sections */
+   color: #131318;
+   text-align: center;
+   font-family: Mulish;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+
+}
+
+ .bodytext {
+    /*it will use for body letter of each section  */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+ }
+
