@@ -10,56 +10,6 @@
 
  /* shared style */
 
-
-
-
-
-
-
-
-
-
- header {
-    padding: 20px 100px;
-
- }
-
-
-
- nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
- }
-
- .leftside {
-    display: flex;
-
- }
-
- .rightside {
-    display: flex;
- }
-
- .head {}
-
- .icon {
-    margin-right: 10px;
- }
-
- nav>ul {
-    display: flex;
- }
-
- nav li {
-    list-style: none;
-    text-decoration: none;
-    margin-left: 30px;
-    font-weight: 500;
-    font-size: 1rem;
- }
-
  .orange {
     color: #ff4500;
  }
@@ -69,23 +19,163 @@
  }
 
  .heading-black {
-   /* it will use for each of the heading of sections */
-   color: #131318;
-   text-align: center;
-   font-family: Mulish;
-   font-size: 40px;
-   font-style: normal;
-   font-weight: 800;
-   line-height: normal;
+    /* it will use for each of the heading of sections */
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
 
-}
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+ }
 
  .bodytext {
     /*it will use for body letter of each section  */
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+    font-weight: 500;
+    line-height: 30px;
  }
 
+ .bg-orange-clr {
+    text-align: center;
+    border-color: #ff4500;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+    width: 11rem;
+    height: 3.3rem;
+ }
+
+
+ /* start nav bar */
+ header {
+    padding: 50px 100px;
+
+ }
+
+ .totalnav {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    background-color: whitesmoke;
+    height: 6rem;
+    border-radius: 15px;
+
+ }
+
+ .leftside {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+ }
+
+ .leftside img {
+    width: 5rem;
+    height: rem;
+    object-fit: cover;
+ }
+
+ h2 {
+    font-size: 2rem;
+    padding-left: 10px;
+ }
+
+
+ .rightside {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .rightside li {
+    list-style: none;
+    display: inline-flex;
+    padding: 15px;
+
+
+ }
+
+ .rightside a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+
+ /* start banner section*/
+
+ main {
+    max-width: 1400px;
+    margin: 0 auto;
+
+ }
+
+ .banner-property {
+
+    background: linear-gradient(180deg, rgb(26 26 37 / 80%) 0%, rgba(19, 19, 24, 0.00) 100%), url(/assets/Group\ 13\ \(1\)\ \(1\).png);
+    object-fit: cover;
+    height: 500px;
+    border-radius: 15px;
+    flex-shrink: 0;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+
+ .white-heading {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+ }
+
+
+ .text {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 2rem;
+
+ }
+
+ .search-here {
+   background: rgba(255, 255, 255, 0.30);
+   margin-top: 2rem;
+   border-radius: 15px;
+   display: inline-flex;   
+   padding: 16px;
+   gap: 25px;
+   margin-left: 15rem;
+   
+ }
+
+ .search-here .bodytext{
+   width:8rem;
+   height: 2.5rem;
+   border-radius: 8px;
+   border: none;
+   text-align: center;
+
+ }
+ 
