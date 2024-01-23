@@ -18,41 +18,47 @@
     color: #808080;
  }
 
+
  .heading-black {
     /* it will use for each of the heading of sections */
     color: #131318;
-    text-align: center;
     font-family: Mulish;
-
+    font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+ }
 
+ 
+
+ .heading-black-small {
+   /* It will use for every small black heading */
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
  }
 
  .bodytext {
     /*it will use for body letter of each section  */
+    color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
- }
-
- .bg-orange-clr {
-    text-align: center;
-    border-color: #ff4500;
-    border: none;
-    border-radius: 8px;
-    color: #FFF;
-    font-size: 1.5rem;
-    font-weight: 800;
-    width: 11rem;
-    height: 3.3rem;
+    font-weight: 400;
+    line-height: 26px;
  }
 
 
- /* start nav bar */
+/*  */
+/*  */
+/*  */
+
+
+ /* start navbar */
  header {
     padding: 50px 100px;
 
@@ -160,22 +166,82 @@
  }
 
  .search-here {
-   background: rgba(255, 255, 255, 0.30);
-   margin-top: 2rem;
-   border-radius: 15px;
-   display: inline-flex;   
-   padding: 16px;
-   gap: 25px;
-   margin-left: 15rem;
-   
- }
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 2rem;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 20px;
+    margin-left: 15rem;
+    position: relative;
 
- .search-here .bodytext{
-   width:8rem;
-   height: 2.5rem;
-   border-radius: 8px;
-   border: none;
-   text-align: center;
 
  }
- 
+
+ #btn-org {
+    background-color: #ff4500;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ .search-here .bodytext {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+
+ }
+
+
+
+ /* Start popular tours section */
+
+ .popular-tour-section {
+
+
+    display: flex;
+    max-width: 1400px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 6rem;
+    padding-left: 10px;
+
+ }
+
+ .populartour {
+    margin-right: 2rem;
+ }
+
+ .populartour li {
+    line-height: 26px;
+    margin-top: 1rem;
+    padding: 2rem auto;
+    width: 525px;
+ }
+
+ .all-btn {
+    background-color: #ff4500;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Mulish;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    flex-shrink: 0;
+    margin-top: 2rem;
+
+ }
+
+ section .populartour p {
+    margin-top: 1rem;
+ }
+
