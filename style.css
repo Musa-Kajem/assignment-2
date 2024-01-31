@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Mulish';
  }
 
  /* shared style */
@@ -20,7 +20,7 @@
 
 
  .heading-black {
-    /* it will use for each of the heading of sections */
+    /* it will use for each of the left heading of sections */
     color: #131318;
     font-family: Mulish;
     font-size: 40px;
@@ -29,10 +29,20 @@
     line-height: normal;
  }
 
- 
+ .heading-black-center {
+    /* it will use for each of the middle heading of sections */
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+
+ }
 
  .heading-black-small {
-   /* It will use for every small black heading */
+    /* It will use for every small black heading */
     color: #131318;
     text-align: center;
     font-family: Mulish;
@@ -53,9 +63,9 @@
  }
 
 
-/*  */
-/*  */
-/*  */
+ /*  */
+ /*  */
+ /*  */
 
 
  /* start navbar */
@@ -211,7 +221,7 @@
     height: 550px;
     margin: 0 auto;
     margin-top: 6rem;
-    padding-left: 10px;
+
 
  }
 
@@ -220,6 +230,7 @@
  }
 
  .populartour li {
+    color: #5A5A5D;
     line-height: 26px;
     margin-top: 1rem;
     padding: 2rem auto;
@@ -245,3 +256,182 @@
     margin-top: 1rem;
  }
 
+
+ /* start destination section */
+
+ .destination-section {
+
+    max-width: 1400px;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 6rem;
+
+ }
+
+ .center-text {
+    width: 650px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+ }
+
+ .grid-container {
+    margin-top: 2rem;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+ }
+
+
+ .grid-img1 {
+    object-fit: cover;
+    flex-shrink: 0;
+    grid-column: 1/span 6;
+    grid-row: 1/ span 1;
+    width: 573px;
+    height: 300px;
+
+ }
+
+ .grid-img2 {
+    object-fit: cover;
+    flex-shrink: 0;
+    grid-column: 7/span 12;
+    grid-row: 1/ span 1;
+    width: 573px;
+    height: 300px;
+
+ }
+
+ .grid-img3 {
+    object-fit: cover;
+    flex-shrink: 0;
+    grid-column: 1/span 4;
+    grid-row: 2/ span 1;
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+ }
+
+ .grid-img4 {
+    object-fit: cover;
+    grid-column: 5/span 9;
+    grid-row: 2/ span 1;
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+ }
+
+ .grid-img5 {
+    object-fit: cover;
+    grid-column: 10/span 12;
+    grid-row: 2/span 1;
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+ }
+
+ .grid-img6 {
+    object-fit: cover;
+    grid-column: 1/span5;
+    grid-row: 3/span 1;
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+ }
+
+ .grid-img7 {
+    object-fit: cover;
+    grid-column: 6/span 12;
+    grid-row: 3/span 1;
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+ }
+
+
+ /* start why-choose-items */
+
+ .why-choose {
+    border: 1px solid black;
+    height:800px;
+    max-width: 1400px;
+    margin: 0 auto;
+ }
+
+ .cards-section {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2rem;
+    gap: 2rem;
+    
+    
+ }
+
+ .card-1 {
+    border: 1px solid orangered;
+    width: 620px;
+    height: 284px;
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    
+
+ }
+
+ .card-2 {
+    border: 1px solid orangered;
+    width: 620px;
+    height: 284px;
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    
+ }
+
+
+ .card-3 {
+    border: 1px solid orangered;
+    width: 620px;
+    height: 284px;
+    border-radius: 16px;
+    background: rgba(233, 68, 68, z 0.05);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin: 0 auto;
+    justify-items: center;
+    
+ }
+
+
+ .card-heading {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+
+
+
+ /* sart discount section */
+
+.discount-section {
+
+width: 1400px;
+height: 800px;
+margin: 0 auto;
+border: 1px solid black;
+margin-top: 4rem;
+
+   }
