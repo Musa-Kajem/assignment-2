@@ -288,126 +288,167 @@
 
 
  .grid-img1 {
+    position: relative;
+    background: url(/assets/Rectangle\ 5.png);
     object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-shrink: 0;
     grid-column: 1/span 6;
     grid-row: 1/ span 1;
     width: 573px;
     height: 300px;
+    position: inherit;
+    float: inherit;
 
  }
 
  .grid-img2 {
+    position: relative;
+    background: url(/assets/Rectangle\ 8.png);
     object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-shrink: 0;
     grid-column: 7/span 12;
     grid-row: 1/ span 1;
     width: 573px;
     height: 300px;
+    position: inherit;
+    float: inherit;
 
  }
 
  .grid-img3 {
+    position: relative;
+    background: url(/assets/Rectangle\ 6.png);
     object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-shrink: 0;
     grid-column: 1/span 4;
     grid-row: 2/ span 1;
     width: 374px;
     height: 286px;
     flex-shrink: 0;
+    position: inherit;
+    float: inherit;
  }
 
  .grid-img4 {
+    position: relative;
+    background: url(/assets/Rectangle\ 7.png);
     object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-column: 5/span 9;
     grid-row: 2/ span 1;
     width: 474px;
     height: 286px;
     flex-shrink: 0;
+    position: inherit;
+    float: inherit;
  }
 
  .grid-img5 {
+    position: relative;
+    background: url(/assets/Rectangle\ 9.png);
     object-fit: cover;
+    background-repeat: no-repeat;
     grid-column: 10/span 12;
     grid-row: 2/span 1;
     width: 474px;
     height: 286px;
+    border-radius: 16px;
     flex-shrink: 0;
+    position: inherit;
+    float: inherit;
  }
 
  .grid-img6 {
+    position: relative;
+    background: url(/assets/Rectangle\ 11.png);
     object-fit: cover;
+    background-repeat: no-repeat;
     grid-column: 1/span5;
     grid-row: 3/span 1;
-    width: 274px;
-    height: 286px;
+    width: 470px;
+    height: 301px;
     flex-shrink: 0;
+    border-radius: 16px;
+    position: inherit;
+    float: inherit;
  }
 
  .grid-img7 {
+    position: relative;
+    background: url(/assets/Rectangle\ 10.png);
     object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-column: 6/span 12;
     grid-row: 3/span 1;
     width: 673px;
     height: 300px;
     flex-shrink: 0;
+    position: inherit;
+    float: inherit;
  }
 
+ .backgroundtext {
+    text-align: center;
+ }
+
+ .backgroundtext {
+    color: white;
+ }
 
  /* start why-choose-items */
 
  .why-choose {
-    border: 1px solid black;
-    height:800px;
+
+    height: 800px;
     max-width: 1400px;
     margin: 0 auto;
  }
 
  .cards-section {
     padding-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 2rem;
-    gap: 2rem;
-    
-    
- }
-
- .card-1 {
-    border: 1px solid orangered;
-    width: 620px;
-    height: 284px;
-    border-radius: 16px;
-    background: rgba(251, 181, 99, 0.05);
-    padding-left: 1rem;
-    padding-top: 1rem;
-    
 
  }
 
- .card-2 {
-    border: 1px solid orangered;
-    width: 620px;
+
+
+ .card-1, .card-2 {
+
+    width: 670px;
     height: 284px;
     border-radius: 16px;
-    background: rgba(41, 206, 246, 0.05);
     padding-left: 1rem;
-    padding-top: 1rem;
-    
+    padding-top: 2rem;
+   
  }
 
 
  .card-3 {
-    border: 1px solid orangered;
-    width: 620px;
+
+    width: 675px;
     height: 284px;
     border-radius: 16px;
-    background: rgba(233, 68, 68, z 0.05);
+    background: rgba(228, 53, 53, 0.05);
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     margin: 0 auto;
     justify-items: center;
-    
+
  }
 
 
@@ -424,14 +465,122 @@
 
 
 
- /* sart discount section */
+ /* sart deals & discount section */
 
-.discount-section {
+ .discount-section {
 
-width: 1400px;
-height: 800px;
-margin: 0 auto;
-border: 1px solid black;
-margin-top: 4rem;
+    width: 1400px;
+    height: 1700px;
+    margin: 0 auto;
+    margin-top: 4rem;
 
-   }
+
+ }
+
+ .deals {
+    background-image: url("assets/Group\ 39.png");
+    object-fit: cover;
+    position: relative;
+
+    height: 500px;
+    border-radius: 15px;
+    flex-shrink: 0;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+
+ }
+
+ .deals-body {
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 2rem;
+    margin-left: 50%;
+
+ }
+
+
+ .deals-flex-text {
+
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem
+ }
+
+ i {
+    padding: 10px;
+
+
+ }
+
+ .deals-text {
+
+    margin-left: 38px;
+    margin-right: 20px;
+    justify-content: center;
+
+ }
+
+ .deals,
+ h3 {
+
+    margin-top: 10px;
+ }
+
+
+ .deals-middle {
+    background-image: url("assets/Group\ 40.png");
+    object-fit: cover;
+    display: block;
+    position: relative;
+    height: 500px;
+    border-radius: 15px;
+    flex-shrink: 0;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+ }
+
+
+ .deals-body-middle {
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 2rem;
+    margin-left: 5%;
+
+ }
+
+
+ .bottom-button {
+    display: flex;
+    width: 1400px;
+    height:4em;
+    margin: 0 auto;
+    justify-content:center;
+    align-items:center;
+    
+ }
+
+.btn-size{
+   width: 250px;
+}
+
